@@ -1,0 +1,117 @@
+body{
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+.container {
+    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+#me{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(100, 100, 100);
+}
+
+.left-side {
+  flex-basis: 50%;
+  background-color: #f1f1f1;
+  border-radius: 5px 0 0 5px;
+  padding: 20px;
+}
+
+.right-side {
+  flex-basis: 50%;
+  background: url('https://st2.depositphotos.com/1004061/5455/i/950/depositphotos_54555663-stock-photo-man-making-a-fantastic-slam.jpg');
+  /* background-size: 200px 300px; */
+  border-radius: 0 5px 5px 0;
+  padding: 20px;
+}
+.navbar {
+  /* background-color: #333; */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar-brand {
+    color: blueviolet;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-size: 24px;
+  color: rgb(253, 253, 253);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+  outline: blueviolet;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/menu-512.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: blueviolet;
+}
+
+.navbar-nav {
+  display: none;
+  color:blueviolet ;
+ 
+}
+
+.navbar-nav.active {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+     color: blueviolet;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+    font-size: x-large;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 20px;
+
+}
+hr {
+    line-height: normal;
+    line-break: calc(100 - 50px);
+    
+}
+.hmm { 
+    font-weight:200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b1a9a9;
+}
+.em{
+    padding: 5px 20px 5px;
+    margin-bottom: ;
+}
